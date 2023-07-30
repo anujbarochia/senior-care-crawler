@@ -12,12 +12,14 @@ module.exports = async ({ context, pushData }) => {
     .split("<br>");
   const address1 = parts[0];
   const address2 = parts[1];
+  const number = $("#featured_bg_content a").text();
   const addressCounty = parts[parts.length - 2].split(":")[1].trim();
   const result = {
     url: request.url,
     Nursing_Home_Name: nursingHomeName,
     Address_Line_1: address1,
     Address_Line_2: address2,
+    Phone_no: number,
     County: addressCounty,
   };
   $("table.table-condensed")

@@ -10,6 +10,8 @@ const csvWriter = createObjectCsvWriter({
     { id: "Nursing_Home_Name", title: "Nursing_Home_Name" },
     { id: "Address_Line_1", title: "Address_Line_1" },
     { id: "Address_Line_2", title: "Address_Line_2" },
+    { id: "Phone_no", title: "Phone_no" },
+
     { id: "County", title: "County" },
     { id: "Legal Business Name", title: "Legal Business Name" },
     { id: "Ownership Type", title: "Ownership Type" },
