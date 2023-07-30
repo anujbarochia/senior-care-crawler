@@ -1,0 +1,16 @@
+{
+  "name": "senior-care-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crawlee": "^3.4.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
